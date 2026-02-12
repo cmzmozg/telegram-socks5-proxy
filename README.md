@@ -25,12 +25,7 @@
 ## 🚀 Быстрый старт (одна команда)
 
 ```bash
-git clone https://github.com/cmzmozg/telegram-socks5-proxy.git && \
-cd telegram-socks5-proxy && \
-chmod +x entrypoint.sh && \
-docker-compose up -d && \
-sleep 20 && \
-docker-compose logs --tail=20
+git clone https://github.com/cmzmozg/telegram-socks5-proxy.git && cd telegram-socks5-proxy && chmod +x entrypoint.sh && docker-compose up -d && echo "Ждём 15 секунд..." && sleep 15 && docker-compose logs --tail=30
 ```
 
 Через несколько секунд в выводе появится ссылка вида:
