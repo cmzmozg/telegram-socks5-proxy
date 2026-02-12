@@ -29,7 +29,7 @@ git clone https://github.com/cmzmozg/telegram-socks5-proxy.git && \
 cd telegram-socks5-proxy && \
 chmod +x entrypoint.sh && \
 docker-compose up -d && \
-sleep 5 && \
+sleep 20 && \
 docker-compose logs --tail=20
 ```
 
