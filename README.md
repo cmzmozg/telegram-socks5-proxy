@@ -5,6 +5,8 @@ Telegram SOCKS5 Proxy в Docker
 
 🚀 Быстрый старт (одна строка)
 Скопируйте и выполните эту команду:
+
+
 git clone https://github.com/cmzmozg/telegram-socks5-proxy.git && cd telegram-socks5-proxy && chmod +x entrypoint.sh && docker-compose up -d && sleep 5 && docker-compose logs --tail=20
 
 Что происходит:
